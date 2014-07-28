@@ -60,7 +60,8 @@ So you want to run migration, generate model or controller. Before vim-rails plu
 :Rserver
 {% endhighlight %}
 
-To run rails server within background of Vim you will use Rserver command. 
+To run rails server within background of Vim you will use Rserver command.
+
 ### Syntax highlighting
 
 Of course syntax highlighting is included too. Vim-rails has built syntax highlighting for special Active Record methods and all keywords that Rails has unique.
@@ -69,7 +70,7 @@ That's only small part of what plugin provides, to see list of all commands, go 
 
 ## 2. [NerdTree](https://github.com/scrooloose/nerdtree)
 
-Navigation by vim-rails plugin can be great, but only when you know what you're looking for. For other purposes, you can use **NERDTree** as file navigator. 
+Navigation by vim-rails plugin can be great, but only when you know what you're looking for. For other purposes, you can use **NERDTree** as file navigator.
 
 Type this into vim session to run NerdTree:
 
@@ -87,9 +88,9 @@ Let's assume you want to open up directory **app**. Navigate to app with Vim and
 
 ## 3. [Vim-fugitive](https://github.com/tpope/vim-fugitive)
 
-If you have your project tracked with Git, switching between terminal sessions can be really painful. Fugitive is absolutely greatly tool for using Git inside Vim.
+If you have your project tracked with Git, switching between terminal sessions can be really painful. Fugitive is an absolutely great tool for using Git inside Vim.
 
-For example let'see what's changed with git status
+For example let's see what's changed with git status
 {% highlight sh %}
 :Git status
 {% endhighlight %}
@@ -160,6 +161,6 @@ Here's the useful plugin that adds end after if, do, def keywords.
 
 Supertab is useful in situations when you have lot of repetiting words like **def**. It works that you press Tab and it completes word for you.
 
-If you like this post, share it with clicking on social network toolbar at the top of page. 
+If you like this post, share it with clicking on social network toolbar at the top of page.
 
 
